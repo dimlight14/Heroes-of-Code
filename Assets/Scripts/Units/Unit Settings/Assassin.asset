@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b6f4644e55fbb4d9f5eb934646b685, type: 3}
+  m_Name: Assassin
+  m_EditorClassIdentifier: 
+  baseData:
+    type: 5
+    unitName: "\u0410\u0441\u0441\u0430\u0441\u0438\u043D"
+    maxHealth: 15
+    damage: 15
+    initiative: 5
+    ability: 7
+  basePrefab: {fileID: 3384547579347657718, guid: 1f45e8be014340f4093378cbf178f2c2,
+    type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b6f4644e55fbb4d9f5eb934646b685, type: 3}
+  m_Name: Special caster
+  m_EditorClassIdentifier: 
+  baseData:
+    type: 8
+    unitName: "\u0427\u0435\u0440\u043D\u043E\u043A\u043D\u0438\u0436\u043D\u0438\u043A"
+    maxHealth: 8
+    damage: 2
+    initiative: 8
+    ability: 1
+  basePrefab: {fileID: 7969732599229843455, guid: 85a7e571b3d86ab4d86c13fd46d65f89,
+    type: 3}

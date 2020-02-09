@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d468bc0ccd6caf45b55d1ef26c83b4a, type: 3}
+  m_Name: Path Images
+  m_EditorClassIdentifier: 
+  pathImages:
+  - key: 0
+    value: {fileID: 21300000, guid: 08cf8cc3fbac1964990f135e67ee321f, type: 3}
+  - key: 1
+    value: {fileID: 21300000, guid: ea7c937b7b8061f469a789f99abdb95a, type: 3}
+  - key: 2
+    value: {fileID: 21300000, guid: c15b6d46c93b3d64ab8ffdd31c3cb409, type: 3}
+  - key: 3
+    value: {fileID: 21300000, guid: 5fbfd7e019adbea4ba34030e863a3fc0, type: 3}
+  - key: 4
+    value: {fileID: 21300000, guid: 0dea582dac8d55d4d8f1ff6e24a4d334, type: 3}

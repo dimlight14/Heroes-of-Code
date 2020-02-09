@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f6e51dc63bdf64d8bcf174a5984f93, type: 3}
+  m_Name: Abilities Settings
+  m_EditorClassIdentifier: 
+  abilitiesPrefabs:
+  - key: 0
+    value: {fileID: 5148035415480860799, guid: 7b7681c07becc0f4f90af03dd8504f2d, type: 3}
+  - key: 1
+    value: {fileID: 5367841036453463248, guid: 4e01c5a45399ebd42bf012aa6be7f9c7, type: 3}
+  - key: 2
+    value: {fileID: 5828646972381152204, guid: 6d4db9ee32908894cb1c7ce8c7d4ab26, type: 3}
+  - key: 3
+    value: {fileID: 6530303631958688539, guid: 20d312dbc676dc94492ce043a54968f9, type: 3}
+  - key: 5
+    value: {fileID: 4022092629706475085, guid: a53eb2bc80381084c89ed5fe8643345d, type: 3}
+  - key: 7
+    value: {fileID: 5961203898945255301, guid: e74622fea2ebb1848a96f5e01ef5b57c, type: 3}
+  - key: 6
+    value: {fileID: 5152315058460620646, guid: 9dc43b085d5fc654ea5af90fc0e0ab63, type: 3}
