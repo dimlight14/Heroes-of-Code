@@ -7,7 +7,7 @@ using HeroesOfCode.Units;
 
 namespace HeroesOfCode.Abilities
 {
-    public class SkeletonPassive : MonoBehaviour, IPassiveAbility, IDisplayIconWrapper
+    public class SkeletonPassive : MonoBehaviour, IPassiveAbility, IDisplayableIcon
     {
         [SerializeField] private Sprite iconImage = null;
 

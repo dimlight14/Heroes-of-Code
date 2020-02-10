@@ -6,7 +6,7 @@ namespace HeroesOfCode.UI
 {
     public class IconUnderMouseEvent : CustomEvent
     {
-        public IDisplayIconWrapper Icon;
+        public IDisplayableIcon Icon;
         public bool IconBelongsToActiveUnit;
     }
 }

@@ -6,7 +6,7 @@ using HeroesOfCode.UI;
 
 namespace HeroesOfCode.Abilities
 {
-    public class AssassinPassive : MonoBehaviour, IPassiveAbility, IDisplayIconWrapper
+    public class AssassinPassive : MonoBehaviour, IPassiveAbility, IDisplayableIcon
     {
         [SerializeField] private Sprite iconImage = null;
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HeroesOfCode.UI
 {
-    public interface IDisplayIconWrapper
+    public interface IDisplayableIcon
     {
         string GetDescription();
         string GetName();

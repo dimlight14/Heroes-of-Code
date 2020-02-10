@@ -7,7 +7,7 @@ using HeroesOfCode.Units;
 
 namespace HeroesOfCode.Abilities
 {
-    public class RecievedAttackRedirection : MonoBehaviour, IDisplayIconWrapper, IDefenceModifier
+    public class RecievedAttackRedirection : MonoBehaviour, IDisplayableIcon, IDefenceModifier
     {
         [SerializeField] private UnitStackBase protectorUnit;
         private Sprite spriteImage;

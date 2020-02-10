@@ -7,7 +7,7 @@ using HeroesOfCode.Units;
 
 namespace HeroesOfCode.Abilities
 {
-    public class PercentageAttackModifier : MonoBehaviour, IDisplayIconWrapper, IAttackModifier
+    public class PercentageAttackModifier : MonoBehaviour, IDisplayableIcon, IAttackModifier
     {
         private Sprite spriteImage;
         private string description = "";

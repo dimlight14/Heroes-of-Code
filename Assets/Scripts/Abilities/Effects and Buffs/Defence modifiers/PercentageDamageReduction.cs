@@ -6,7 +6,7 @@ using HeroesOfCode.Units;
 
 namespace HeroesOfCode.Abilities
 {
-    public class PercentageDamageReduction : MonoBehaviour, IDisplayIconWrapper, IDefenceModifier
+    public class PercentageDamageReduction : MonoBehaviour, IDisplayableIcon, IDefenceModifier
     {
         private Sprite spriteImage;
         private string description = "";

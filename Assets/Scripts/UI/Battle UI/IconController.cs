@@ -16,7 +16,7 @@ namespace HeroesOfCode.UI
         [SerializeField] private Image image = null;
         [SerializeField] private Image frameImage = null;
         [SerializeField] private Material grayscaleMaterial = null;
-        private IDisplayIconWrapper associatedIcon;
+        private IDisplayableIcon associatedIcon;
         private IActiveAbility associatedAbility;
         private bool activatable;
         private bool isSelected;
@@ -25,7 +25,7 @@ namespace HeroesOfCode.UI
             EventBus.Subscribe<AbilityDeselectedEvent>(OnAbilityDeselected);
         }
 
-        public void SetIcon(IDisplayIconWrapper iconObject) {
+        public void SetIcon(IDisplayableIcon iconObject) {
             gameObject.SetActive(true);
             active = true;
             associatedIcon = iconObject;

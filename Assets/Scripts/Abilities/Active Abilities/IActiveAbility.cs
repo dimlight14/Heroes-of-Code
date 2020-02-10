@@ -8,7 +8,7 @@ using HeroesOfCode.Battle;
 
 namespace HeroesOfCode.Abilities
 {
-    public interface IActiveAbility : IDisplayIconWrapper
+    public interface IActiveAbility : IDisplayableIcon
     {
         void GetActiatedByAi(UnitStackBase targetUnit, BattleManager manager);
         void GetActivated(UnitStackBase targetUnit, BattleManager manager);

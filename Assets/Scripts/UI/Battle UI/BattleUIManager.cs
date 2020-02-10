@@ -87,12 +87,12 @@ namespace HeroesOfCode.UI
             foreach (IActiveAbility ability in abilities) {
                 SetActiveUnitAbility(ability);
             }
-            List<IDisplayIconWrapper> blackList = new List<IDisplayIconWrapper>();
+            List<IDisplayableIcon> blackList = new List<IDisplayableIcon>();
             blackList.AddRange(abilities);
 
-            List<IDisplayIconWrapper> icons = new List<IDisplayIconWrapper>();
-            icons.AddRange(unit.GetComponentsInChildren<IDisplayIconWrapper>());
-            foreach (IDisplayIconWrapper icon in icons) {
+            List<IDisplayableIcon> icons = new List<IDisplayableIcon>();
+            icons.AddRange(unit.GetComponentsInChildren<IDisplayableIcon>());
+            foreach (IDisplayableIcon icon in icons) {
                 if (blackList.Contains(icon)) continue;
 
                 DisplayActiveUnitIcon(icon);
@@ -109,7 +109,7 @@ namespace HeroesOfCode.UI
             activeUnitAbilitySlot2.DisableSelf();
             activeUnitAbilitySlot3.DisableSelf();
         }
-        private void DisplayActiveUnitIcon(IDisplayIconWrapper icon) {
+        private void DisplayActiveUnitIcon(IDisplayableIcon icon) {
             if (!activeUnitAbilitySlot1.active) {
                 activeUnitAbilitySlot1.SetIcon(icon);
             }
@@ -146,7 +146,7 @@ namespace HeroesOfCode.UI
             SaveSelectedTargetUnit(customEvent.UnitSelection);
         }
 
-        private void DisplayIconDescription(IDisplayIconWrapper iconObject, bool activeUnit) {
+        private void DisplayIconDescription(IDisplayableIcon iconObject, bool activeUnit) {
             if (activeUnit) {
                 iconDescriptionActiveText.text = iconObject.GetDescription();
                 iconNameActiveText.text = iconObject.GetName();
@@ -167,7 +167,7 @@ namespace HeroesOfCode.UI
             }
         }
 
-        private void DisplaySelectedUnitIcon(IDisplayIconWrapper icon, int position) {
+        private void DisplaySelectedUnitIcon(IDisplayableIcon icon, int position) {
             switch (position) {
                 case 0:
                     selectedUnitAbilitySlot1.SetIcon(icon);
@@ -223,10 +223,10 @@ namespace HeroesOfCode.UI
             damageSelectedText.text = "Урон " + unit.Damage;
             initiativeSelectedText.text = "Инициатива " + unit.Initiative;
 
-            List<IDisplayIconWrapper> icons = new List<IDisplayIconWrapper>();
-            icons.AddRange(unit.GetComponentsInChildren<IDisplayIconWrapper>());
+            List<IDisplayableIcon> icons = new List<IDisplayableIcon>();
+            icons.AddRange(unit.GetComponentsInChildren<IDisplayableIcon>());
             for (int i = 0; i < icons.Count; i++) {
-                IDisplayIconWrapper icon = icons[i];
+                IDisplayableIcon icon = icons[i];
                 DisplaySelectedUnitIcon(icon, i);
             }
         }
